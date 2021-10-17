@@ -83,8 +83,8 @@ function rateChecked() {
 
 function resultForms(event) {
   event.preventDefault();
-  nome2.innerHTML = `${nome1.value} ${sobrenome1.value}`;
-  email2.innerHTML = `Email: ${email1.value}`;
+  nome2.innerText = `Nome: ${nome1.value} ${sobrenome1.value}`;
+  email2.innerText = `Email: ${email1.value}`;
   casa2.innerHTML = `Casa: ${casa1.value}`;
   familia2.innerText = `Família: ${familyChecked()}`;
   materias2.innerText = `Matéria:  ${subjectsChecked()}`;
@@ -92,8 +92,6 @@ function resultForms(event) {
   observacoes2.innerText = `Observações: ${observacoes1.value}`;
   formulario1.style.display = 'none';
   formulario2.style.display = 'block';
-  /*  nome2.innerText = 'Doug';
-  console.log(nome2); */
 }
 
 buttonSubmit.addEventListener('click', resultForms);
