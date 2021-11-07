@@ -26,6 +26,7 @@
  Sem a marcação desta caixa de seleção, o botão de enviar estará desativado. </br>
  
  Temos também um campo de login, onde para validar o login, o usuário deve por um email válido, como exemplo : **alguem@alguem.com**, junto com uma senha numérica de no mínimo **6 dígitos**. </br>
+ Caso o Login esteja no formato incorreto, aparecerá um alerta informado ao usuário, e caso o login esteja no formato correto, irá aparecer um alerta informado ao usuário. </br>
  Ao clicar no botão **Enviar**, irá aparecer na tela os dados preenchidos pelo usuário.
 <br>
 <br>
@@ -33,7 +34,7 @@
 ## EXEMPLO
 ---
 ## Aqui a baixo podemos ver uma pequena simulação de como funciona
-<img src="./ " width="400px">
+<img src="./forms.png" width="400px">
 
 
 ## Caso queira ver na prática como funciona, acesse o link abaixo: 
